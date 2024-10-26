@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "do-master"
+version = "0.1.0"
+description = ""
+authors = ["marek pierzchala <marek.pierzchala@statnett.no>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydo = "^0.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
